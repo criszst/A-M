@@ -2,6 +2,14 @@
     padding: 0;
     margin: 0;
 }
+:root {
+   --colorPrimary: #f5f8ff;
+   --btnColor: #e8def8;
+}
+
+body {
+    background-color: var(--colorPrimary);
+}
 
 .background-image {
     background-image: url('../utils/images/62777-6.jpeg') !important;
@@ -45,7 +53,33 @@
 }
 
 .btnDiv button {
-    margin-top: 50px;
-    background-color: #f7f2fa;
     width: 20%;
+    margin-top: 50px;
+
+    background-color: var(--btnColor);
 }
+
+.sectionCard {
+    max-width: 600px; 
+    margin-top: 20px;
+
+    border-radius: 200px;
+    background-color: var(--colorPrimary) !important;
+
+    display: flex !important;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.sectionCard img {
+    width: 100%;
+    height: 100%;
+
+    border-radius: 6%;
+    justify-content: flex-start;
+
+    filter: contrast(1.075);
+    filter: brightness(80%);
+    filter:saturate(1.3);   
+}
+
