@@ -3,7 +3,7 @@
     margin: 0;
 }
 :root {
-   --colorPrimary: #d3e0ff;
+   --colorPrimary: #e9effd;
    --btnColor: #e8def8;
 }
 
@@ -112,6 +112,9 @@ body {
     background-color: var(--btnColor);
     
     border-radius: 120px !important;
+    border-width: 20px;
+    border-color: black;
+   
 }
 
 

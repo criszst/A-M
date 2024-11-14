@@ -2,303 +2,88 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
-    <!-- MDB -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/8.0.0/mdb.min.css" rel="stylesheet" />
+   <!-- Font Awesome -->
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+   <!-- Google Fonts -->
+   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+   <!-- MDB -->
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/8.0.0/mdb.min.css" rel="stylesheet" />
 
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=celebration" />
-
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-        rel="stylesheet">
-
-    <link href="src/style/style.css" rel="stylesheet" />
-    <link href="src/style/card.css" rel="stylesheet" />
-    <link href="src/style/style.css" rel="stylesheet" />
+   <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=celebration" />
 
 
-    <title>Chá de Cozinha da Agatha e do Matheus</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet">
+
+   <link href="src/style/style.css" rel="stylesheet" />
+   <link href="src/style/card.css" rel="stylesheet" />
+   <link href="src/style/list.css" rel="stylesheet" />
+
+
+   <title>Chá de Cozinha da Agatha e do Matheus</title>
 </head>
 
 <body>
-    <div class="container-fluid">
-        <section>
-            <div id="intro" class="bg-image vh-100  background-image img-fluid">
-                <div class="container-hero ">
-                    <div class="mask">
-                        <div class="container-fluid align-items-center h-100 w-100 ">
-                            <div>
-                                <div class="container-fluid" style="margin-top: 130px">
+   <div class="container-fluid">
+      <section id="sectionIntro"> </section>
 
-                                    <p>
-                                    <h1 class="h1 title p-2">
-                                        Chá de Cozinha
-                                    </h1>
-                                    </p>
+      <div class="row  d-flex align-items-start  mb-3">
 
-                                    <p>
-                                    <h5 class="subtitle p-2 h5 text-break">
-                                        Venha participar do nosso chá de cozinha! 🎉🍰
-                                        <br>
-                                        Vamos nos reunir para uma tarde repleta de alegria, risadas
-
-                                        e muita diversão!
-                                    </h5>
-                                    </p>
-
-                                </div>
-
-                                <div class="container-fluid btnDiv d-flex flex-row mb-3">
-                                    <button type="button" class="btn btn-secondary p-2" data-mdb-ripple-init>
-                                        <i class="far fa-calendar"></i>
-                                        Adicionar no Calendário
-                                    </button>
-
-                                    <button type="button" class="btn btn-secondary p-2" data-mdb-ripple-init>
-                                        <i class="fas fa-location-dot"></i>
-                                        Av. Brasil
-                                    </button>
-                                </div>
+         <section class="sectionCard col" id="sectionAbout"> </section>
 
 
-                            </div>
+         <section class="sectionList col">
 
+            <div class="container-fluid">
 
-                        </div>
-                    </div>
-                </div>
+               <button type="button" class="btn btn-secondary btnList" data-mdb-ripple-init>
+                  <i class="far fa-calendar"></i>
+                  Adicionar no Calendário
+               </button>
+
+               <button type="button" class="btn btn-secondary btnList" data-mdb-ripple-init>
+                  <i class="fas fa-location-dot"></i>
+                  Av. Brasil
+               </button>
+
             </div>
 
-        </section>
+            <div class="container-fluid">
 
-        <div class="row">
+               <div class="divList" id="divList">
+               </div>
 
-            <section class="sectionCard h-100 d-flex flex-row mb-3 col-md-8">
-                <div class="bg-image bgCard p-2">
-                    <img src="src/utils/images/file.jpg" class="img-fluid" />
-                </div>
+            </div>
 
-                <div class="card p-2">
-                    <div class="header">
-                        <span class="material-symbols-outlined icon">
-                            celebration
-                        </span>
-                        <p class="alert h5">Chá de Cozinha da Agatha e do Matheus!</p>
-                    </div>
+         </section>
 
-                    <p class="message">
-                        Venha celebrar e compartilhar momentos divertidos, receitas e muito carinho enquanto montamos
-                        nossa cozinha dos sonhos!
-                        <br>
-                        Traga sua alegria e um item de cozinha para abençoar nosso novo lar!
-                        <br>
-                        Você pode olhar nos itens disponíveis no site para ver o que pode nos presentear.
-                    </p>
+      </div>
 
-                </div>
-
-
-            </section>
-
-
-            <section class="sectionList vh-100 row">
-
-                <div class="container-fluid btnDivList d-flex flex-row mb-3 ">
-
-                    <button type="button" class="btn btn-secondary btnList col-md-6" data-mdb-ripple-init>
-                        <i class="far fa-calendar"></i>
-                        Adicionar no Calendário
-                    </button>
-
-                    <button type="button" class="btn btn-secondary btnList col-md-6" data-mdb-ripple-init>
-                        <i class="fas fa-location-dot"></i>
-                        Av. Brasil
-                    </button>
-
-                </div>
-
-                <div>
-
-                    <div>
-                        <div class="list list-row card" id="sortable" data-sortable-id="0" aria-dropeffect="move">
-                           <div class="list-item" data-id="13" data-item-sortable-id="0" draggable="true" role="option" aria-grabbed="false" >
-                              <div><a href="#" data-abc="true"><span class="w-40 avatar gd-primary">P</span></a></div>
-                              <div class="flex">
-                                 <a href="#" class="item-author text-color" data-abc="true">Patrick Linod</a>
-                                 <div class="item-except text-muted text-sm h-1x">For what reason would it be advisable for me to think about business content?</div>
-                              </div>
-                              <div class="no-wrap">
-                                 <div class="item-date text-muted text-sm d-none d-md-block">3 weeks ago</div>
-                              </div>
-                              <div>
-                                 <div class="item-action dropdown">
-                                    <a href="#" data-toggle="dropdown" class="text-muted" data-abc="true">
-                                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical">
-                                          <circle cx="12" cy="12" r="1"></circle>
-                                          <circle cx="12" cy="5" r="1"></circle>
-                                          <circle cx="12" cy="19" r="1"></circle>
-                                       </svg>
-                                    </a>
-                                    <div class="dropdown-menu dropdown-menu-right bg-black" role="menu">
-                                       <a class="dropdown-item" href="#" data-abc="true">See detail </a><a class="dropdown-item download" data-abc="true">Download </a><a class="dropdown-item edit" data-abc="true">Edit</a>
-                                       <div class="dropdown-divider"></div>
-                                       <a class="dropdown-item trash" data-abc="true">Delete item</a>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="list-item" data-id="9" data-item-sortable-id="0" draggable="true" role="option" aria-grabbed="false">
-                              <div><a href="#" data-abc="true"><span class="w-40 avatar gd-info"><img src="https://img.icons8.com/bubbles/24/000000/user.png" alt="."></span></a></div>
-                              <div class="flex">
-                                 <a href="#" class="item-author text-color" data-abc="true">Steven Hmpire</a>
-                                 <div class="item-except text-muted text-sm h-1x">Build a progressive web app using jQuery</div>
-                              </div>
-                              <div class="no-wrap">
-                                 <div class="item-date text-muted text-sm d-none d-md-block">2 days ago</div>
-                              </div>
-                              <div>
-                                 <div class="item-action dropdown">
-                                    <a href="#" data-toggle="dropdown" class="text-muted" data-abc="true">
-                                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical">
-                                          <circle cx="12" cy="12" r="1"></circle>
-                                          <circle cx="12" cy="5" r="1"></circle>
-                                          <circle cx="12" cy="19" r="1"></circle>
-                                       </svg>
-                                    </a>
-                                    <div class="dropdown-menu dropdown-menu-right bg-black" role="menu">
-                                       <a class="dropdown-item" href="#" data-abc="true">See detail </a><a class="dropdown-item download" data-abc="true">Download </a><a class="dropdown-item edit" data-abc="true">Edit</a>
-                                       <div class="dropdown-divider"></div>
-                                       <a class="dropdown-item trash" data-abc="true">Delete item</a>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="list-item" data-id="17" data-item-sortable-id="0" draggable="true" role="option" aria-grabbed="false" style="">
-                              <div><a href="#" data-abc="true"><span class="w-40 avatar gd-warning">A</span></a></div>
-                              <div class="flex">
-                                 <a href="#" class="item-author text-color" data-abc="true">Alan musk</a>
-                                 <div class="item-except text-muted text-sm h-1x">it be advisable for me to think about business content?</div>
-                              </div>
-                              <div class="no-wrap">
-                                 <div class="item-date text-muted text-sm d-none d-md-block">13/12 18</div>
-                              </div>
-                              <div>
-                                 <div class="item-action dropdown">
-                                    <a href="#" data-toggle="dropdown" class="text-muted" data-abc="true">
-                                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical">
-                                          <circle cx="12" cy="12" r="1"></circle>
-                                          <circle cx="12" cy="5" r="1"></circle>
-                                          <circle cx="12" cy="19" r="1"></circle>
-                                       </svg>
-                                    </a>
-                                    <div class="dropdown-menu dropdown-menu-right bg-black" role="menu">
-                                       <a class="dropdown-item" href="#" data-abc="true">See detail </a><a class="dropdown-item download" data-abc="true">Download </a><a class="dropdown-item edit" data-abc="true">Edit</a>
-                                       <div class="dropdown-divider"></div>
-                                       <a class="dropdown-item trash" data-abc="true">Delete item</a>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="list-item" data-id="8" data-item-sortable-id="0" draggable="true" role="option" aria-grabbed="false">
-                              <div><a href="#" data-abc="true"><span class="w-40 avatar gd-success"><img src="https://img.icons8.com/doodle/24/000000/user-male.png" alt="."></span></a></div>
-                              <div class="flex">
-                                 <a href="#" class="item-author text-color" data-abc="true">Lawrence Telon</a>
-                                 <div class="item-except text-muted text-sm h-1x">For what reason would it be advisable for me to think</div>
-                              </div>
-                              <div class="no-wrap">
-                                 <div class="item-date text-muted text-sm d-none d-md-block">02/11 18</div>
-                              </div>
-                              <div>
-                                 <div class="item-action dropdown">
-                                    <a href="#" data-toggle="dropdown" class="text-muted" data-abc="true">
-                                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical">
-                                          <circle cx="12" cy="12" r="1"></circle>
-                                          <circle cx="12" cy="5" r="1"></circle>
-                                          <circle cx="12" cy="19" r="1"></circle>
-                                       </svg>
-                                    </a>
-                                    <div class="dropdown-menu dropdown-menu-right bg-black" role="menu">
-                                       <a class="dropdown-item" href="#" data-abc="true">See detail </a><a class="dropdown-item download" data-abc="true">Download </a><a class="dropdown-item edit" data-abc="true">Edit</a>
-                                       <div class="dropdown-divider"></div>
-                                       <a class="dropdown-item trash" data-abc="true">Delete item</a>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="list-item" data-id="10" data-item-sortable-id="0" draggable="true" role="option" aria-grabbed="false" style="">
-                              <div><a href="#" data-abc="true"><span class="w-40 avatar gd-danger"><img src="https://img.icons8.com/color/16/000000/administrator-male.png" alt="."></span></a></div>
-                              <div class="flex">
-                                 <a href="#" class="item-author text-color" data-abc="true">Stuart Clark</a>
-                                 <div class="item-except text-muted text-sm h-1x">For what reason would, i think about business content?</div>
-                              </div>
-                              <div class="no-wrap">
-                                 <div class="item-date text-muted text-sm d-none d-md-block">1 day ago</div>
-                              </div>
-                              <div>
-                                 <div class="item-action dropdown">
-                                    <a href="#" data-toggle="dropdown" class="text-muted" data-abc="true">
-                                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical">
-                                          <circle cx="12" cy="12" r="1"></circle>
-                                          <circle cx="12" cy="5" r="1"></circle>
-                                          <circle cx="12" cy="19" r="1"></circle>
-                                       </svg>
-                                    </a>
-                                    <div class="dropdown-menu dropdown-menu-right bg-black" role="menu">
-                                       <a class="dropdown-item" href="#" data-abc="true">See detail </a><a class="dropdown-item download" data-abc="true">Download </a><a class="dropdown-item edit" data-abc="true">Edit</a>
-                                       <div class="dropdown-divider"></div>
-                                       <a class="dropdown-item trash" data-abc="true">Delete item</a>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="list-item" data-id="3" data-item-sortable-id="0" draggable="true" role="option" aria-grabbed="false">
-                              <div><a href="#" data-abc="true"><span class="w-40 avatar gd-primary"><img src="https://img.icons8.com/bubbles/16/000000/administrator-male.png" alt="."></span></a></div>
-                              <div class="flex">
-                                 <a href="#" class="item-author text-color" data-abc="true">Jordan Stephens</a>
-                                 <div class="item-except text-muted text-sm h-1x">For what reason would it be advisable for me to think about business</div>
-                              </div>
-                              <div class="no-wrap">
-                                 <div class="item-date text-muted text-sm d-none d-md-block">1 hour ago</div>
-                              </div>
-                              <div>
-                                 <div class="item-action dropdown">
-                                    <a href="#" data-toggle="dropdown" class="text-muted" data-abc="true">
-                                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical">
-                                          <circle cx="12" cy="12" r="1"></circle>
-                                          <circle cx="12" cy="5" r="1"></circle>
-                                          <circle cx="12" cy="19" r="1"></circle>
-                                       </svg>
-                                    </a>
-                                    <div class="dropdown-menu dropdown-menu-right bg-black" role="menu">
-                                       <a class="dropdown-item" href="#" data-abc="true">See detail </a><a class="dropdown-item download" data-abc="true">Download </a><a class="dropdown-item edit" data-abc="true">Edit</a>
-                                       <div class="dropdown-divider"></div>
-                                       <a class="dropdown-item trash" data-abc="true">Delete item</a>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-
-                </div>
-
-            </section>
-
-        </div>
-    </div>
+   </div>
 
 </body>
 
 <!-- MDB -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/8.0.0/mdb.umd.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+   integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+<script>
+   // incluindo o html de outra página
+   // melhor fazer assim do q ter um html com 500 linhas af
+   $("#sectionIntro").load('intro.html');
+   $("#divList").load('list.html');
+   $("#sectionAbout").load('about.html');
+</script>
+
+
 
 </html>
