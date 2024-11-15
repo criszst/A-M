@@ -23,7 +23,7 @@ function addGift(img, title, price) {
 
                         </div>
 
-                        <button type="button" class="btn btn-primary" data-mdb-ripple-init">Button</button>
+                        <button type="button" class="btn btn-info" data-mdb-ripple-init">Preços</button>
 
                     </div>
 
@@ -42,7 +42,9 @@ addGift("https://precolandia.vtexassets.com/arquivos/ids/212652-800-auto?v=63843
         "Travesseiro Mega Nasa 48x68cm - Nap", 
         "R$74,90"
     );
+    
 
+// panelas
 addGift("https://http2.mlstatic.com/D_NQ_NP_2X_948133-MLB71548572201_092023-F.webp", 
         "Panela de Fondue 11 peças Monte Verde preta Meridional", 
         "R$ 159,90"
