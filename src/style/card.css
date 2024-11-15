@@ -1,5 +1,6 @@
 .card {
-    max-width: 800px; 
+    max-width: 800px;
+
     border-width: 1px;
     border-color: rgba(219, 234, 254, 1);
     border-radius: 1rem;
