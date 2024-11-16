@@ -55,7 +55,7 @@ function lazyloadImages() {
 }
 
 function addGift(gifts) {
-   
+
     const card = document.getElementById("cardList");
 
     if (!card) {
@@ -76,4 +76,4 @@ function addGift(gifts) {
 
 
 // Adicionar os presentes
-addGift(gifts);
+setTimeout(addGift(gifts), 200);
