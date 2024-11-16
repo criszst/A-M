@@ -72,6 +72,8 @@
 
    </div>
 
+   <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.3.0/dist/lazyload.min.js"></script>
+
 </body>
 
 <!-- MDB -->
@@ -80,15 +82,27 @@
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"
    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
+
+
 <script>
    // incluindo o html de outra página
    // melhor fazer assim do q ter um html com 500 linhas af
    $("#sectionIntro").load('src/page/intro.html');
    $("#divList").load('src/page/list.html');
    $("#sectionAbout").load('src/page/about.html');
+
+
 </script>
 
 <script type="text/javascript" src="src/script/gifts.js"></script>
 <script type="module" src="src/script/addGift.js"></script>
+
+<script>
+
+   function viewPrice(title) {
+    console.log("Precos de presentes: " + title);
+}
+
+</script>
 
 </html>
