@@ -1,79 +1,77 @@
-import gifts from './gifts.js';
-
-function insertGiftHTML(img, title, price) {
+function insertGiftHTML(img, title, category, price ) {
     return `
-      <div class="mt-3" style="border-bottom: 2px solid  #cac4d0; padding-bottom: 10px;">
-            <div class="d-flex justify-content-between align-items-center">
-                <div class="d-flex flex-row align-items-center">
-                    <div>
-                        <img class="imageCard lazy" loading="lazy" data-src="${img}" alt="Imagem do presente" style="width: 100px; height: 100px;" />
-                    </div>
-                    <div class="d-flex flex-column">
-                        <span>${title}</span>
-                        <div class="d-flex flex-row align-items-center">
-                            <small class="h5">${price}</small>
-                        </div>
-                    </div>
-                </div>
-                <button type="button" class="btn btn-info" data-mdb-ripple-init onclick="viewPrice(${title})">Preços</button>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+         <div class="card">
+            <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light" data-mdb-ripple-color="light">
+               <img src="${img}" class="w-100 img-fluid imgCardList" />
+               <a href="#!">
+                  <div class="mask" style="background-color: hsla(0, 0%, 0%, 0.3) !important;">
+                     <div class="d-flex justify-content-start align-items-end h-100">
+                        <h5><span class="badge bg-primary ms-2">R$ ${price}</span></h5>
+                     </div>
+                  </div>
+                  <div class="hover-overlay">
+                     <div class="mask" style="background-color: rgba(251, 251, 251, 0.10);"></div>
+                  </div>
+               </a>
             </div>
-        </div>
+            <div class="card-body">
+               <a href="" class="text-reset">
+                  <h5 class="card-title mb-3">${title}</h5>
+               </a>
+               <a href="" class="text-reset">
+                  <p>${category}</p>
+               </a>
+
+               <button type="button" class="btn btn-info" onclick="viewPrice('${title}')" 
+               style="background-color: #463754">
+               Ver Informações
+               </button>
+            </div>
+         </div>
+      </div>
     `;
 }
 
-
-
-function lazyloadImages() {
-    const images = document.querySelectorAll(".lazy");
-
-    if (images.length === 0) {
-        console.warn("nenhuma imagem encontrada pro lazy loading SOCORRO");
-        return;
-    }
-
-    const observer = new IntersectionObserver(
-        (entries, observer) => {
-            entries.forEach((entry) => {
-                if (entry.isIntersecting) {
-                    const image = entry.target;
-
-                    if (image.dataset.src) {
-                        image.src = image.dataset.src; 
-                        image.removeAttribute("data-src");
-                        image.classList.remove("lazy");
-                        observer.unobserve(image);
-                    } else {
-                        console.error(" data-src nao encontrado na imagem hahaha to coringando", image);
-                    }
-                }
-            });
-        },
-        { rootMargin: "50px" }
-    );
-
-    images.forEach((image) => observer.observe(image));
-}
-
 function addGift(gifts) {
+    const cardList = document.getElementById("cardList");
 
-    const card = document.getElementById("cardList");
-
-    if (!card) {
-        console.error("cardList nao encontrado");
+    if (!cardList) {
+        console.error("Elemento com ID 'cardList' não encontrado.");
         return;
     }
 
+    // Limpa os cards antigos antes de adicionar os novos
+    cardList.innerHTML = "";
+
+    // Adiciona os novos cards
     gifts.forEach(({ img, title, price }) => {
-        const giftHTML = insertGiftHTML(img, title, price);
-        card.insertAdjacentHTML("beforeend", giftHTML);
+        const giftHTML = insertGiftHTML(img, title, "Panelas", price);
+        cardList.insertAdjacentHTML("beforeend", giftHTML);
     });
-
-    // Garantir que as imagens recém-adicionadas sejam observadas
-    lazyloadImages();
-
 }
 
+
+function fetchGifts() {
+    return fetch('src/script/gifts.json')
+        .then((response) => {
+            if (!response.ok) {
+                throw new Error("Erro ao carregar os dados de gifts.json");
+            }
+            return response.json();
+        })
+        .then((gifts) => {
+            addGift(gifts);
+        })
+        .catch((error) => {
+            console.error(error);
+        });
+}
+
+function viewPrice(title) {
+    console.log("Precos de presentes: " + title);
+}
 
 
 // Adicionar os presentes
-setTimeout(addGift(gifts), 200);
+fetchGifts();

@@ -1,0 +1,736 @@
+ [
+    {
+        "img": "https://altenburg.vtexassets.com/arquivos/ids/162015-800-800?v=638491288439170000&width=800&height=800&aspect=true",
+        "title": "Travesseiro Altenburg Suporte Firme 50cm x 70cm",
+        "price": "37,90"
+    },
+  
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/212652-800-auto?v=638435912891000000&width=800&height=auto&aspect=true",
+        "title": "Travesseiro Mega Nasa 48x68cm - Nap",
+        "price": "74,90"
+    },
+
+    {
+        "img": "https://http2.mlstatic.com/D_NQ_NP_2X_948133-MLB71548572201_092023-F.webp",
+        "title": "Panela de Fondue 11 pe as Monte Verde preta Meridional",
+        "price": "159,90"
+    },
+
+    {
+        "img": "https://ocapi.nadir.com.br/on/demandware.static/-/Sites-nadir-main-catalog/default/dw08b05b92/nadir/zoom/70640201414660_a_1000px.webp",
+        "title": "Jogo de Copos Long Drink Dubai Nadir 500ml com 6 pe as",
+        "price": "54,90"
+    },
+
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/245328-800-auto?v=638519836002500000&width=800&height=auto&aspect=true",
+        "title": "Conjunto 2 Copos de Ch  Moderno 260mL - Lyor",
+        "price": "47,90"
+    },
+
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/206543-800-auto?v=638038821721130000&width=800&height=auto&aspect=true",
+        "title": "Conjunto de Ta as De Sobremesa Lights 6 Pe as - Nadir Figueiredo",
+        "price": "44,90"
+    },
+
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/208732-800-auto?v=638054411834530000&width=800&height=auto&aspect=true",
+        "title": "Jogo de Ta as De  gua Barone 6 Pe as - Nadir Figueiredo",
+        "price": "66,90",
+        "link": {
+            "precolandia": "https://www.precolandia.com.br/jogo-de-tacas-de-agua-barone-6-pecas-nadir-figueiredo-846899/p"
+        }
+    },
+
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/227684-800-auto?v=638509510324570000&width=800&height=auto&aspect=true",
+        "title": "Jarra com Tampa em Bambu Sense 1,5l",
+        "price": "143,90",
+        "link": {
+            "precolandia": "https://www.precolandia.com.br/jarra-com-tampa-em-bambu-sense-15l--072354/p"
+        }
+    },
+
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/205159-800-auto?v=638038813078730000&width=800&height=auto&aspect=true",
+        "title": "Coqueteleira 500mL - Hercules",
+        "price": "44,90",
+        "link": {
+            "precolandia": "https://www.precolandia.com.br/coqueteleira-500ml-hercules-563331/p"
+        }
+    },
+
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/206946-800-auto?v=638334305826530000&width=800&height=auto&aspect=true",
+        "title": "Prato de Melamina 19cm Preto - Marcamix",
+        "price": "23,90",
+        "link": {
+            "precolandia": "https://www.precolandia.com.br/prato-de-melamina-19cm-preto-marcamix-923974/p"
+        }
+    },
+
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/210965-800-auto?v=638309249306530000&width=800&height=auto&aspect=true",
+        "title": "Petisqueira Bambu 30x14,5cm - Yoi",
+        "price": "52,90",
+        "link": {
+            "precolandia": "https://www.precolandia.com.br/petisqueira-bambu-30x145cm-yoi-647420/p"
+        }
+    },
+
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/190778-800-auto?v=638038636126570000&width=800&height=auto&aspect=true",
+        "title": "Colher Bailarina de A o Inox 30,3cm - H rcules",
+        "price": "6,00",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/colher-bailarina-de-aco-inox-303cm-hercules-436500/p"
+        }
+    },
+
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/209607-800-auto?v=638392819267570000&width=800&height=auto&aspect=true",
+        "title": "Jogo para Churrasco Dynamic 3 Pe as - Tramontina",
+        "price": "95,90",
+        "link": {
+            "precolandia": "https://www.precolandia.com.br/jogo-para-churrasco-dynamic-3-pecas-tramontina-673617/p"
+        }
+    },
+
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/206960-800-auto?v=638254851859400000&width=800&height=auto&aspect=true",
+        "title": "Jogo de Facas Tramontina 3 Pe as Affilata Preto",
+        "price": "84,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/colher-bailarina-de-aco-inox-303cm-hercules-436500/p"
+        }
+    },
+
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/195773-800-auto?v=638235572917700000&width=800&height=auto&aspect=true",
+        "title": "Jogo de Facas Tramontina Plenus 6 Pe as Colorido",
+        "price": "67,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/jogo-de-facas-tramontina-plenus-6-pecas-colorido-508055/p"
+        }
+    },
+
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/214003-800-auto?v=638266874070770000&width=800&height=auto&aspect=true",
+        "title": "Tesoura de Cozinha Multiuso Mundial",
+        "price": "17,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/tesoura-de-cozinha-multiuso-mundial-829439/p"
+        }
+    },
+
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/226001-300-300?v=638493923644930000&width=300&height=300&aspect=true",
+        "title": "Conjunto Faca Kitchen 4 Pe as - Mundial",
+        "price": "67,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/conjunto-faca-kitchen-4-pecas-mundial-088986/p"
+        }
+    },
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/219372-800-auto?v=638242777698570000&width=800&height=auto&aspect=true",
+        "title": "T bua de Carne com Al a Delicate 34x19cm Madeira - Tramontina",
+        "price": "52,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/tabua-de-carne-com-alca-delicate-34x19cm-madeira-tramontina-034185/p"
+        }
+    },
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/188686-800-auto?v=638120004101430000&width=800&height=auto&aspect=true",
+        "title": "Porta Guardanapo Branco Liso - Martiplast",
+        "price": "14,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/porta-guardanapo-branco-liso-martiplast-161780/p"
+        }
+    },
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/243677-800-auto?v=638486859315770000&width=800&height=auto&aspect=true",
+        "title": "Porta Papel Toalha de Bambu 33cm - Oikos",
+        "price": "44,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/porta-papel-toalha-de-bambu-33cm-oikos-075213/p?idsku=31686&gad_source=1&gclid=Cj0KCQiAouG5BhDBARIsAOc08RSiR2yx-I8ssCLN4_sXFM8ofqmOP56YYI8xoBQHvB223s_vIflVuysaAso-EALw_wcB"
+        }
+    },
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/197912-800-auto?v=638132083075630000&width=800&height=auto&aspect=true",
+        "title": "Porta Papel Toalha Black - Arthi",
+        "price": "41,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/porta-papel-toalha-black-arthi-498610/p"
+        }
+    },
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/189309-800-auto?v=638242595683030000&width=800&height=auto&aspect=true",
+        "title": "Saleiro de Parede Preto 13cm - Coza",
+        "price": "29,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/saleiro-de-parede-preto-13cm-coza-268720/p"
+        }
+    },
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/216159-800-auto?v=638258039091100000&width=800&height=auto&aspect=true",
+        "title": "Porta Condimentos com Suporte Preto/ Prata 6 Pe as - Arthi",
+        "price": "67,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/porta-condimentos-com-suporte-preto-prata-6-pecas-arthi-554030/p"
+        }
+    },
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/210941-800-auto?v=638333361056800000&width=800&height=auto&aspect=true",
+        "title": "Moedor Temperos Grind Branco Fosco - Yoi",
+        "price": "67,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/moedor-temperos-grind-branco-fosco-yoi-649317/p"
+        }
+    },
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/197272-800-auto?v=638412702667830000&width=800&height=auto&aspect=true",
+        "title": "Pote Herm tico de Vidro com Tampa Transparente Retangular 1,5L - Oikos",
+        "price": "59,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/pote-hermetico-retangular-152l-oikos-546518/p?idsku=3847&gad_source=1&gclid=Cj0KCQiAouG5BhDBARIsAOc08RQhgqrWaZpNri4NGIcjrtRoIPIh5IFJP48QqXGRHfagl7Vnp3ug4CAaAo_BEALw_wcB",
+            "amazon": "https://www.amazon.com.br/Vidro-Tampa-Transparente-Retangular-Herm%C3%A9tico/dp/B0983YS5ZK/ref=asc_df_B0983YS5ZK/?tag=googleshopp00-20&linkCode=df0&hvadid=709870389015&hvpos=&hvnetw=g&hvrand=8222294876878561138&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9195762&hvtargid=pla-1434375558423&mcid=222b50cf885736f886eec0f7b34f4f4d&gad_source=1&th=1"
+        }
+    },
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/241810-800-auto?v=638450705066770000&width=800&height=auto&aspect=true",
+        "title": "Pote Herm tico de Vidro com Tampa Transparente Retangular 570ml - Oikos",
+        "price": "28,04",
+        "links": {
+            "precolandia": "Sem Dados",
+            "amazon": "https://www.amazon.com.br/Pote-Vidro-Retangular-570ML-OIKOS/dp/B08ZNNFRHH/ref=asc_df_B08ZNNFRHH/?tag=googleshopp00-20&linkCode=df0&hvadid=709874962041&hvpos=&hvnetw=g&hvrand=2744229186348289169&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9195762&hvtargid=pla-1420086349176&psc=1&mcid=dbb453591f2a3b51ba182c279467fea1&gad_source=1"
+        }
+    },
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/241835-800-auto?v=638450722913800000&width=800&height=auto&aspect=true",
+        "title": "Pote Herm tico Quadrado 800mL Transparente - Oikos",
+        "price": "39,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/pote-hermetico-quadrado-800ml-transparente-oikos-094153/p"
+        }
+    },
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/241789-800-auto?v=638450704886430000&width=800&height=auto&aspect=true",
+        "title": "Pote Herm tico Retangular 570mL Transparente - Oikos",
+        "price": "27,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/pote-hermetico-retangular-570ml-transparente-oikos-094110/p?idsku=31041&gad_source=1&gclid=Cj0KCQiAouG5BhDBARIsAOc08RRT4eJhVtzJwVAck-ddcjsGTT1SuONDrQIY1oHUl6r7ScxBSEZb04caApBMEALw_wcB"
+        }
+    },
+
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/216157-800-auto?v=638240820263570000&width=800&height=auto&aspect=true",
+        "title": "Queijeira de Plástico Break Chumbo 16cm - Martiplast",
+        "price": "36,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/queijeira-de-plastico-break-chumbo-16cm-martiplast-467375/p"
+        }
+    },
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/217529-800-auto?v=638236617703300000&width=800&height=auto&aspect=true",
+        "title": "Porta Frios Clear Natural - Ou",
+        "price": "38,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/porta-frios-clear-natural-ou-017272/p"
+        }
+    },
+    {
+        "img": "https://lojaou.vtexassets.com/arquivos/ids/157168-800-auto?v=637462462741500000&width=800&height=auto&aspect=true",
+        "title": "Porta Frios Duplo Pote Para Queijo Fatiado Com Tampa Empilhável Chumbo",
+        "price": "28,90",
+        "links": {
+            "precolandia": "Sem Dados",
+            "amazon": "https://www.amazon.com.br/Porta-Queijo-Fatiado-Empilh%C3%A1vel-Chumbo/dp/B07ZJKWGQN/ref=asc_df_B07ZJKWGQN/?tag=googleshopp00-20&linkCode=df0&hvadid=709964506256&hvpos=&hvnetw=g&hvrand=13825825879971637703&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9195762&hvtargid=pla-1146872896240&psc=1&mcid=381c7b0809e93b33897266bb4cc86868&gad_source=1"
+        }
+    },
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/216560-800-auto?v=638605560728000000&width=800&height=auto&aspect=true",
+        "title": "Escorredor de Louças Fan Black - Arthi",
+        "price": "39,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/escorredor-de-loucas-fan-black-arthi-497908/p"
+        }
+    },
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/203772-800-auto?v=638038804299430000&width=800&height=auto&aspect=true",
+        "title": "Abridor de Lata e Garrafa Verona - Brinox",
+        "price": "5,20",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/abridor-de-lata-e-garrafa-verona-brinox-501417/p"
+        }
+    },
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/204294-800-auto?v=638141386557830000&width=800&height=auto&aspect=true",
+        "title": "Espremedor de Alho 16cm Azul - Oikos",
+        "price": "17,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/espremedor-de-alho-16cm-azul-oikos-548693/p"
+        }
+    },
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/211975-800-auto?v=638597865824430000&width=800&height=auto&aspect=true",
+        "title": "Descascador de Legumes Elemental Azul - Fackelmann",
+        "price": "6,00",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/descascador-de-legumes-elemental-azul-fackelmann-549444/p"
+        }
+    },
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/212745-800-auto?v=638597874976300000&width=800&height=auto&aspect=true",
+        "title": "Mini Mixer Manual Prata - Hudson",
+        "price": "31,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/mini-mixer-manual-prata-hudson-033006/p"
+        }
+    },
+    {
+        "img": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQzDPoEuOoOYbQRJ1ksEGp18LEuaFOnY8F7HR0BoYLJKLQ1FV9x_AX5ucjuo5mLYvPPDvJoS_tgGyPafulOqYWZ9QRHZo9MZRxpi3o9m_cQJrgjChfW1lZRryIAHkzC&usqp=CAc",
+        "title": "Conjunto de Xícaras Medidoras Plásticas, Cor Transparente, Sanremo.",
+        "price": "21,90",
+        "links": {
+            "precolandia": "Sem Dados",
+            "amazon": "https://www.amazon.com.br/Sanremo-SR807-Conjunto-Medidoras-Transparente/dp/B07CJ55Z97/ref=asc_df_B07CJ55Z97/?tag=googleshopp00-20&linkCode=df0&hvadid=709964506280&hvpos=&hvnetw=g&hvrand=8398810115588727792&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9195762&hvtargid=pla-877134410808&psc=1&mcid=0ce5eac949173ef7836d4c4e48a322d7&gad_source=1"
+        }
+    },
+    {
+        "img": "https://m.media-amazon.com/images/I/61WIDcdmdJL._AC_UF894,1000_QL80_.jpg",
+        "title": "Conjunto Colher Medidora Plástica, Linha Casar, Sanremo",
+        "price": "12,90",
+        "links": {
+            "precolandia": "",
+            "amazon": "https://www.amazon.com.br/Sanremo-SR806-Conjunto-Medidora-Transparente/dp/B07CKXD4FY/ref=asc_df_B07CKXD4FY/?tag=googleshopp00-20&linkCode=df0&hvadid=709964506241&hvpos=&hvnetw=g&hvrand=5454280131938479028&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9195762&hvtargid=pla-891783018220&psc=1&mcid=cbb45cdc1c063ddfa4c193fffc939a29&gad_source=1"
+        }
+    },
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/196995-800-auto?v=638597856076800000&width=800&height=auto&aspect=true",
+        "title": "Abridor de Latas Elemental - Fackelmann",
+        "price": "24,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/abridor-de-latas-elemental-fackelmann-549436/p"
+        }
+    },
+    
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/193724-800-auto?v=638619149633930000&width=800&height=auto&aspect=true",
+        "title": "Copo Medidor / Graduado 7 Medidas - Plasvale",
+        "price": "9,70",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/copo-medidor-graduado-7-medidas-plasvale-688720/p"
+        }
+    },
+    {
+        "img": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQiLtVAB10At19361gk48eWGJw8Tk57A0jSoJMd2E88LZraCbZ79M0wOxKTbCrOzHYKjI2l4dxBKLtDySZP2L0cwaCMgpVcVmJJhaAXhfPA20P2lYFQiU-BW3k&usqp=CAE",
+        "title": "Funil Plastico 12,8cm - Sanremo",
+        "price": "7,90",
+        "links": {
+            "precolandia": "Sem Dados"
+        }
+    },
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/215398-800-auto?v=638270225969170000&width=800&height=auto&aspect=true",
+        "title": "Peneira de Inox 12cm - Hercules",
+        "price": "11,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/peneira-de-inox-12cm-hercules-756970/p"
+        }
+    },
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/189355-800-auto?v=638120785160970000&width=800&height=auto&aspect=true",
+        "title": "Porta Papel Toalha Triple - Utility",
+        "price": "149,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/porta-papel-toalha-triple-utility-597910/p"
+        }
+    },
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/216124-800-auto?v=638255618050970000&width=800&height=auto&aspect=true",
+        "title": "Escova Sanitária de Inox - Hercules",
+        "price": "43,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/escova-sanitaria-de-inox-hercules-563935/p"
+        }
+    },
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/227942-800-auto?v=638380146151230000&width=800&height=auto&aspect=true",
+        "title": "Organizador com Cesto Triplo Clear Fresh 5l Natural - Ou",
+        "price": "59,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/organizador-com-cesto-triplo-clear-fresh-5l-natural-ou-071501/p"
+        }
+    },
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/206331-800-auto?v=638238275160670000&width=800&height=auto&aspect=true",
+        "title": "Porta Detergente e Esponja 18cm Preto - Arthi",
+        "price": "28,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/porta-detergente-e-esponja-18cm-preto-arthi-503460/p"
+        }
+    },
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/197883-800-auto?v=638228899745730000&width=800&height=auto&aspect=true",
+        "title": "Porta Copos New Aço Cromado - Arthi",
+        "price": "28,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/porta-copos-new-aco-cromado-arthi-496952/p"
+        }
+    },
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/199123-800-auto?v=638242786227530000&width=800&height=auto&aspect=true",
+        "title": "Porta Talheres Belize Branco - Arthi",
+        "price": "26,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/porta-talheres-belize-branco-arthi-559440/p"
+        }
+    },
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/225879-800-auto?v=638412963734330000&width=800&height=auto&aspect=true",
+        "title": "Assadeira Antiaderente Retangular Brasil 22cm - Tramontina",
+        "price": "35,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/assadeira-antiaderente-retangular-brasil-22cm-tramontina-098345/p"
+        }
+    },
+    {
+        "img": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQz6diOLjYzvSctiboM7AnzSGWUi8Nh4r4oMRSXrtDG-GeVLzGt7EifsAgFrJfRP0gSNCGcKyaRbroTBY-dj1IEdXAuAFFsfmSV6s0_7Xyyte0SHwijPBeAL6qoMNS2OeCsJchhJWrYfg&usqp=CAc",
+        "title": "Forma De Bolo Nº 20 Antiaderente Aluminio Oliveira",
+        "price": "33,30",
+        "links": {
+            "precolandia": "Sem Dados",
+            "amazon": "https://www.amazon.com.br/Forma-Antiaderente-Aluminio-Oliveira-Voltagev/dp/B07YP7MBMK/ref=asc_df_B07YP7MBMK/?tag=googleshopp00-20&linkCode=df0&hvadid=709964506292&hvpos=&hvnetw=g&hvrand=9380733881804808761&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9195762&hvtargid=pla-1975049837696&psc=1&mcid=2cb1cb1cda1838378400f68612e524be&gad_source=1"
+        }
+    },
+    {
+        "img": "https://plasvale.cdn.magazord.com.br/img/2023/07/produto/1328/kit-3-potes-linha-mais-710ml-plasvale-1427-variacao-2453-1-2544553081155d0414d04c403895cd47.jpeg?ims=fit-in/600x600/filters:fill(white)",
+        "title": "Kit 3 Potes Linha Mais 710ml Plasvale",
+        "price": "14,90",
+        "links": {
+            "precolandia": "Sem Dados",
+            "plasvale": "https://www.lojaplasvale.com.br/kit-3-potes-linha-mais-710ml-plasvale?utm_source=google&utm_medium=Shopping&utm_campaign=kit-3-potes-linha-mais-710ml-plasvale&inStock&gad_source=4&gclid=Cj0KCQiAouG5BhDBARIsAOc08RRzxQjVgO0GQaeFiQyWFMFiMc0Z4noEaeAt_vE3r5ZpB1L21LkB68EaAgAvEALw_wcB#derivacao=114"
+        }
+    },
+    {
+        "img": "https://plasvale.cdn.magazord.com.br/img/2023/07/produto/1332/kit-4-potes-linha-mais-250ml-plasvale-1417-variacao-2457-1-e232ad7a502bed96ad4bd20c7659e7e5.jpeg?ims=fit-in/600x600/filters:fill(white)",
+        "title": "Kit 4 Potes Linha Mais 250ml Plasvale",
+        "price": "8,90",
+        "links": {
+            "precolandia": "Sem Dados",
+            "plasvale": "https://www.lojaplasvale.com.br/kit-4-potes-linha-mais-250ml-plasvale?utm_source=google&utm_medium=Shopping&utm_campaign=kit-4-potes-linha-mais-250ml-plasvale&inStock&gad_source=1&gclid=Cj0KCQiAouG5BhDBARIsAOc08RS4iaR8uDjHdMwOVXpYqyw9ZK2yh0QiZCOwqQJ1gZanJjD377WGFIMaAjGHEALw_wcB#derivacao=114"
+        }
+    },
+    {
+        "img": "https://http2.mlstatic.com/D_NQ_NP_2X_605189-MLU78254231602_082024-F.webp",
+        "title": "Conjunto Com Pote Plastico Sanremo 530ml Leve 5 e pague 4",
+        "price": "25,90",
+        "links": {
+            "precolandia": "Sem Dados",
+            "mercadolivre": "https://www.mercadolivre.com.br/conjunto-com-pote-plastico-sanremo-530ml-leve-5-e-pague-4/p/MLB23191897?pdp_filters=item_id%3AMLB4536590226&from=gshop&matt_tool=32374006&matt_word=&matt_source=google&matt_campaign_id=21865696307&matt_ad_group_id=169453548923&matt_match_type=&matt_network=g&matt_device=c&matt_creative=719491169262&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=735128761&matt_product_id=MLB23191897-product&matt_product_partition_id=941895267298&matt_target_id=pla-941895267298&cq_src=google_ads&cq_cmp=21865696307&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=1&gclid=Cj0KCQiAouG5BhDBARIsAOc08RQg-iflo7wpF6_SKnXSfbTSxUwAjLvsHnQGHGvxm5FQIqkADBvNMhgaAvw2EALw_wcB"
+        }
+    },
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/211340-800-auto?v=638121705147300000&width=800&height=auto&aspect=true",
+        "title": "Assadeira de Vidro Retangular Marinex 36cm - Santa Marina",
+        "price": "47,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/assadeira-de-vidro-retangular-marinex-36cm-santa-marina-795976/p"
+        }
+    },
+    {
+        "img": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRMexPtTr-DEVNRui9Q4HhF15fk2QjlgEXPw8qyCnSvMZhslC_CUb-L9MR5Gg1kEnKPWQBFAie7BqvWSxfzl19nyxAFuM_Ub-MeWA17i1Otm20Yre5LZuB6hnqFNKH5Iu2Ej3aQ6lmI8X8&usqp=CAc",
+        "title": "Conjunto Assadeiras Quadradas 3 Peças Sempre - Nadir",
+        "price": "52,90",
+        "links": {
+            "precolandia": "Sem Dados",
+            "amazon": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRMexPtTr-DEVNRui9Q4HhF15fk2QjlgEXPw8qyCnSvMZhslC_CUb-L9MR5Gg1kEnKPWQBFAie7BqvWSxfzl19nyxAFuM_Ub-MeWA17i1Otm20Yre5LZuB6hnqFNKH5Iu2Ej3aQ6lmI8X8&usqp=CAc"
+        }
+    },
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/189334-800-auto?v=638314192681970000&width=800&height=auto&aspect=true",
+        "title": "Forma de Gelo Garrafa - Sanremo",
+        "price": "6,70",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/forma-de-gelo-garrafa-sanremo-534994/p"
+        }
+    },
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/216308-800-auto?v=638231240746300000&width=800&height=auto&aspect=true",
+        "title": "Cabide Primafer 6 Peças Preto - Sanremo",
+        "price": "12,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/cabide-primafer-6-pecas-preto-sanremo-985856/p"
+        }
+    },
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/206808-800-auto?v=638121704136000000&width=800&height=auto&aspect=true",
+        "title": "Vassoura Concept Varry 1000 - Bettanin",
+        "price": "24,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/vassoura-concept-varry-1000-bettanin-873314/p"
+        }
+    },
+    {
+        "img": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT0qHtJ9fRuG0eFGy1mJLeNAu-CLLTntb-9uqo23IzE5zZejVCIVdlmdSt97FbESiCXwcLw9L4GrhXwIda5SONtsGf9q-Jgjr8yGtr3yJJf7RaSsOyMyXpZ&usqp=CAE",
+        "title": "Pá de Lixo com Serilha Sortido - JIk",
+        "price": "9,90",
+        "links": {
+            "precolandia": "Sem Dados"
+        }
+    },
+
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/196203-800-auto?v=638525008801370000&width=800&height=auto&aspect=true",
+        "title": "Varal Cabideiro com 8 Cabides - Cristal",
+        "price": "48,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/varal-cabideiro-com-8-cabides-cristal-510866/p"
+        }
+    },
+
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/214845-800-auto?v=638436058254930000&width=800&height=auto&aspect=true",
+        "title": "Mini Varal Redondo com 16 Prendedores Lilás - Simplo",
+        "price": "22,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/mini-varal-redondo-com-16-prendedores-lilas-simplo-014079/p"
+        }
+    },
+
+    {
+        "img": "https://down-br.img.susercontent.com/file/sg-11134201-7qvf2-li0nyy7qlug5c3@resize_w450_nl.webp",
+        "title": "Prendedor Roupas Basic Pregador Varal Colorido com 24 Peças",
+        "price": "22,95",
+        "links": {
+            "precolandia": "Sem Dados",
+            "shopee": "https://shopee.com.br/Prendedor-Roupas-Basic-Pregador-Varal-Colorido-com-24-Pe%C3%A7as-i.673428821.19972709269?srsltid=AfmBOoqGUYml3nPZ5W-F1_GJcWG1dO0FxqkF-siuxKMgGfzxUqJeYTM3"
+        }
+    },
+
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/214893-800-auto?v=638398070927600000&width=800&height=auto&aspect=true",
+        "title": "Bacia Retrátil 5l Branca - Simplo",
+        "price": "37,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/bacia-retratil-5l-branca-simplo-013943/p"
+        }
+    },
+
+
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/212948-800-auto?v=638139940465730000&width=800&height=auto&aspect=true",
+        "title": "Varal de Chão com Abas 1,4m Alumínio - Meridional",
+        "price": "187,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/varal-de-chao-com-abas-14m-aluminio-meridional-822604/p"
+        }
+    },
+
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/212261-800-auto?v=638135218525930000&width=800&height=auto&aspect=true",
+        "title": "Varal de Chão com Abas 1,4m Branco - Home Space",
+        "price": "127,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/varal-de-chao-com-abas-14m-branco-home-space-676730/p"
+        }
+    },
+
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/192592-800-auto?v=638580299032800000&width=800&height=auto&aspect=true",
+        "title": "Cesto de Roupa com Tampa 47l Branco - Ou",
+        "price": "79,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/cesto-de-roupa-com-tampa-47l-branco-ou-866997/p?idsku=6863&gad_source=1&gclid=Cj0KCQiAouG5BhDBARIsAOc08RRT8xj0z7wl2szF0SDzLhTu5sM35UFaNcFjGZMyNspMtiVm1MDjTMQaAnVAEALw_wcB"
+        }
+    },
+
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/220742-800-auto?v=638367813360700000&width=800&height=auto&aspect=true",
+        "title": "Rodo de Pia 14cm Preto - Sanremo",
+        "price": "5,20",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/rodo-de-pia-14cm-preto-sanremo-025526/p"
+        }
+    },
+
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/213614-800-auto?v=638134519415370000&width=800&height=auto&aspect=true",
+        "title": "Ralinho Pia Especial 9cm Inox - Overtime",
+        "price": "5,20",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/ralinho-pia-especial-9cm-inox-overtime-636479/p"
+        }
+    },
+    {
+        "img": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lx2oby8plhua46@resize_w450_nl.webp",
+        "title": "Cesto de Roupa com Tampa Grid Preto 49L - Ou",
+        "price": "107,98",
+        "links": {
+            "shopee": "https://shopee.com.br/product/564493219/23397456600?gads_t_sig=VTJGc2RHVmtYMTlxTFVSVVRrdENkVHQ3ZkZSUTMrR3pBWmZZNzdrcnRBM2JFMEdGK3R0TTl4Y2tKc2xjN1JmQWMrNmRNcFVDdlVzbFhZenk5RDlyQTRJWUlVcGp0aWlCakNpZFNBM05CRU1BWXFqQktVTVAwSGVTMktUZERQQ1dranBuajlLZHlDcmZGcU5kQlJ0VGxBPT0&gad_source=1&gclid=Cj0KCQiAouG5BhDBARIsAOc08RSW6w1OLgGaJKXekBt9gW0m9n3532B3d_QFmsqAm7K_4P03sOuzyIMaAs_OEALw_wcB"
+        }
+    },
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/202204-800-auto?v=638120634622500000&width=800&height=auto&aspect=true",
+        "title": "Cafeteira Italiana 9 Cafés Preta - Meridional",
+        "price": "97,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/cafeteira-italiana-9-cafes-preta-meridional-944343/p"
+        }
+    },
+    {
+        "img": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTAWjiqygiFUs_fTzsFnYGpO-PqQuEExnMqXKNfTBP3epelfrJ_CaEh3DyzxayROtojjXuz7OonLTCYuiIn_cwRIECskyINT166vSRiXJV_24MTzQX0T8rFy0TtLBUFVk-mjKKp78o&usqp=CAc",
+        "title": "Garrafa Térmica Air Pot, Invicta, Inox, 1.0L",
+        "price": "54,26",
+        "links": {
+            "precolandia": "https://www.amazon.com.br/Garrafa-T%C3%A9rmica-Airpot-Invicta-100197410105/dp/B076X7H4VX/ref=asc_df_B076X7H4VX/?tag=googleshopp00-20&linkCode=df0&hvadid=709964506256&hvpos=&hvnetw=g&hvrand=5848280810877238911&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9195762&hvtargid=pla-815190431172&mcid=84d67396bcab3c0692a29a2d500dfba7&gad_source=1&th=1"
+        }
+    },
+
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/245232-800-auto?v=638518826965170000&width=800&height=auto&aspect=true",
+        "title": "Espátula de Silicone Reta 28cm Preta - Mozcada",
+        "price": "19,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/espatula-de-silicone-reta-28cm-preta-mozcada-104370/p"
+        }
+    },
+
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/245361-800-auto?v=638519891520900000&width=800&height=auto&aspect=true",
+        "title": "Colher de Silicone 28cm Preta - Mozcada",
+        "price": "19,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/colher-de-silicone-28cm-preta-mozcada-104779/p"
+        }
+    },
+
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/245719-800-auto?v=638528393222270000&width=800&height=auto&aspect=true",
+        "title": "Concha de Silicone 28cm Preta - Oikos",
+        "price": "22,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/concha-de-silicone-28cm-preta-oikos-105007/p"
+        }
+    },
+
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/246877-800-auto?v=638545613437100000&width=800&height=auto&aspect=true",
+        "title": "Pegador de Massa 28,8cm Preto - Sanremo",
+        "price": "7,50",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/pegador-de-massa-288cm-preto-sanremo-111350/p"
+        }
+    },
+
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/208105-800-auto?v=638598405256700000&width=800&height=auto&aspect=true",
+        "title": "Pegador de Salada 29cm - Fackelmann",
+        "price": "23,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/pegador-de-salada-29cm-fackelmann-979180/p"
+        }
+    },
+
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/214741-800-auto?v=638377300786930000&width=800&height=auto&aspect=true",
+        "title": "Pinça Multiuso 30cm Preto - Carl Schmidt Kochsysteme",
+        "price": "11,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/pinca-multiuso-30cm-preto-carl-schmidt-kochsysteme-016667/p"
+        }
+    },
+
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/219100-800-auto?v=638241640719900000&width=800&height=auto&aspect=true",
+        "title": "Apoio para Utensílio Trium Preto - Ou",
+        "price": "19,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/apoio-para-utensilio-trium-preto-ou-017850/p"
+        }
+    },
+
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/220763-800-auto?v=638276215437600000&width=800&height=auto&aspect=true",
+        "title": "Pegador de Massas Arienzo 20cm - Brinox",
+        "price": "9,60",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/pegador-de-massas-arienzo-20cm-brinox-040100/p"
+        }
+    },
+
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/206661-800-auto?v=638038822477700000&width=800&height=auto&aspect=true",
+        "title": "Conjunto de Funil Vermelho - Silicook",
+        "price": "22,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/conjunto-de-funil-vermelho-silicook-877646/p"
+        }
+    },
+
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/215566-800-auto?v=638334082787470000&width=800&height=auto&aspect=true",
+        "title": "Prato Clean Esmalte Branco Sobremesa 20cm - Yoi",
+        "price": "18,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/prato-clean-esmalte-branco-raso-26cm-yoi-018422/p?idsku=26349&gad_source=1&gclid=Cj0KCQiAouG5BhDBARIsAOc08RR7qkjmU44sOUUWgcKOFYaE67fJmZn9Aa4XL6DPC8zqr3nQMGdDWgcaAqqaEALw_wcB"
+        }
+    },
+
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/210517-800-auto?v=638533047320170000&width=800&height=auto&aspect=true",
+        "title": "Prato Orgânico Carbon Sobremesa 19,5cm - Porto Brasil",
+        "price": "33,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/prato-organico-carbon-raso-265-porto-brasil-518042/p?idsku=9637&gad_source=1&gclid=Cj0KCQiAouG5BhDBARIsAOc08RS2PbSX4msHpiuQJoV0nAQdwEOcOWR1HdrevsTonBqsk6zf1UjFfOAaAujaEALw_wcB"
+        }
+    },
+
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/216494-800-auto?v=638641776022770000&width=800&height=auto&aspect=true",
+        "title": "Prato Sophia Raso 28cm - Tramontina",
+        "price": "16,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/prato-sophia-raso-28cm-tramontina-673862/p?idsku=9341&gad_source=1&gclid=Cj0KCQiAouG5BhDBARIsAOc08RS1g3vdIoua9vTxd7jctqNRDF6cdf-0Ic5TWo8xKUQlaRR6tYVJ4MgaAspsEALw_wcB"
+        }
+    },
+
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/246554-800-auto?v=638544864006200000&width=800&height=auto&aspect=true",
+        "title": "Prato de Bolinha Branco Sobremesa 20cm - Scalla",
+        "price": "27,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/prato-de-bolinha-branco-raso-26cm-scalla-108600/p?idsku=32313&gad_source=1&gclid=Cj0KCQiAouG5BhDBARIsAOc08RSTCpah7PzdxD7DPjWCnu8NIOh-_vkx4HnY-6Xq_qC_YqWfVtWiySYaAhPBEALw_wcB"
+        }
+    },
+
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/246554-800-auto?v=638544864006200000&width=800&height=auto&aspect=true",
+        "title": "Prato de Bolinha Branco Raso 26cm - Scalla",
+        "price": "34,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/prato-de-bolinha-branco-raso-26cm-scalla-108600/p?idsku=32303&gad_source=1&gclid=Cj0KCQiAouG5BhDBARIsAOc08RRMr9KiwVZ3wcwotodLR5ZA54mo-J-acPIyE8O6sixYzvOM7LPFG94aAsyxEALw_wcB"
+        }
+    },
+
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/246077-800-auto?v=638531347541830000&width=800&height=auto&aspect=true",
+        "title": "Xícara de Chá com Pires Bambu 200mL Branca - Scalla",
+        "price": "34,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/xicara-de-cha-com-pires-bambu-200ml-branca-scalla-108391/p"
+        }
+    },
+
+    {
+        "img": "https://precolandia.vtexassets.com/arquivos/ids/252581-800-auto?v=638647691813600000&width=800&height=auto&aspect=true",
+        "title": "Xícara de Chá com Pires Bolinha 200mL Branca - Scalla",
+        "price": "34,90",
+        "links": {
+            "precolandia": "https://www.precolandia.com.br/xicara-de-cha-com-pires-bolinha-200ml-branca-scalla-108677/p"
+        }
+    }
+
+]

@@ -1,107 +1,14 @@
 .card {
-    max-width: 800px;
-
-    border-width: 1px;
-    border-color: rgba(219, 234, 254, 1);
-    border-radius: 1rem;
     background-color: #f7f0f7;
-    padding: 1rem;
-  }
-  
-  .header {
-    display: flex;
-    align-items: center;
-  }
-  
-  .icon {
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 9999px;
-    background-color: var(--btnColor);
-    padding: 1rem;
-    color: black;
-  }
-  
-  .icon svg {
-    height: 1rem;
-    width: 1rem;
-  }
-  
-  .alert {
-    margin-top: 1rem;
-    color: #444444;
-  }
-  
-  .message {
-    margin-top: 1rem;
-    color: #444444;
-  }
-  
-  .actions {
-    margin-top: 1.5rem;
-  }
-  
-  .actions a {
-    text-decoration: none;
-  }
-  
-  .mark-as-read, .read {
-    display: inline-block;
-    border-radius: 0.5rem;
-    width: 100%;
-    padding: 0.75rem 1.25rem;
-    text-align: center;
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-    font-weight: 600;
-  }
-  
-  .read {
-    background-color: var(--btnColor);
-    color: black;
-  }
-
-
-
-
-
-  
-
-
-
-@media (max-width:991.98px) {
-  .padding {
-      padding: 1.5rem
-  }
 }
 
-@media (max-width:767.98px) {
-  .padding {
-      padding: 1rem
-  }
+#cardList .card {
+  max-width: 100% !important;
+  max-height: 500px !important;
 }
 
-.padding {
-  padding: 5rem
+.imgCardList {
+  max-width: 100% !important;
+  height: 300px !important;
 }
-
-.card {
-  border-width: 0;
-  border-radius: .25rem;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, .05);
-  margin-bottom: 1.5rem
-}
-
-.card {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-clip: border-box;
-
-  border-radius: .25rem
-}
-
+  
