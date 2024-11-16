@@ -21,6 +21,39 @@ function insertGiftHTML(img, title, price) {
     `;
 }
 
+
+
+function lazyloadImages() {
+    const images = document.querySelectorAll(".lazy");
+
+    if (images.length === 0) {
+        console.warn("nenhuma imagem encontrada pro lazy loading SOCORRO");
+        return;
+    }
+
+    const observer = new IntersectionObserver(
+        (entries, observer) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    const image = entry.target;
+
+                    if (image.dataset.src) {
+                        image.src = image.dataset.src; 
+                        image.removeAttribute("data-src");
+                        image.classList.remove("lazy");
+                        observer.unobserve(image);
+                    } else {
+                        console.error(" data-src nao encontrado na imagem hahaha to coringando", image);
+                    }
+                }
+            });
+        },
+        { rootMargin: "50px" }
+    );
+
+    images.forEach((image) => observer.observe(image));
+}
+
 function addGift(gifts) {
    
     const card = document.getElementById("cardList");
@@ -34,6 +67,9 @@ function addGift(gifts) {
         const giftHTML = insertGiftHTML(img, title, price);
         card.insertAdjacentHTML("beforeend", giftHTML);
     });
+
+    // Garantir que as imagens recém-adicionadas sejam observadas
+    lazyloadImages();
 
 }
 
