@@ -5,7 +5,7 @@ export function insertGiftHTML(img, title, category, price) {
            <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light" data-mdb-ripple-color="light">
               <img src="${img}" class="w-100 img-fluid imgCardList" />
               <a href="#!">
-                 <div class="mask" style="background-color: hsla(0, 0%, 0%, 0.3) !important;">
+                 <div class="mask" style="background-color: hsla(0, 0%, 0%, 0.2) !important;">
                     <div class="d-flex justify-content-start align-items-end h-100">
                        <h5><span class="badge ms-2" style="background-color: #463754">R$ ${price}</span></h5>
                     </div>
