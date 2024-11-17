@@ -5,6 +5,9 @@
 #cardList .card {
   max-width: 100% !important;
   max-height: 500px !important;
+  -webkit-box-shadow: 7px 10px 22px -14px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px 10px 22px -14px rgba(0,0,0,0.75);
+box-shadow: 7px 10px 22px -14px rgba(0,0,0,0.75);
 }
 
 .imgCardList {
