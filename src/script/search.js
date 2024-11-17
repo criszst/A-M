@@ -4,7 +4,7 @@ export function filterGifts(query, allGifts) {
     );
 }
 
-export function setupSearch(allGifts, addGift) {
+export function searchGifts(allGifts, addGift) {
     const searchInput = document.getElementById("search");
 
     if (!searchInput) {

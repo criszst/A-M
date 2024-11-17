@@ -20,8 +20,8 @@ export function insertGiftHTML(img, title, category, price) {
                  <h6 class="card-title mb-3">${title}</h6>
               </a>
               <a href="" class="text-reset">
-                 <p>${category}</p>
-              </a>
+                 <p></p>
+              </a> 
      
               <button type="button" class="btn btn-info" onclick="viewPrice('${title}')" style="background-color: #463754"
                  data-mdb-modal-init data-mdb-target="#exampleModal">
