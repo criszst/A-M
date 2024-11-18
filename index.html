@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE >
 <html lang="en">
 
 <head>
@@ -80,6 +80,8 @@
 
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
 
 
 <script>
@@ -99,7 +101,11 @@
 <script>
 
    function openModal(img, title, price, links) {
+      document.querySelector('#modalPrice .modal-title').textContent = '';
       document.querySelector('#modalPrice .modal-title').textContent = title;
+
+      document.querySelector('.card-title').textContent = '';
+      document.querySelector('.card-title').textContent = title;
 
        const imgElement = document.querySelector('.imgCardList');
 
@@ -108,6 +114,7 @@
 
       document.querySelector('#modalPrice .badge').textContent = `R$ ${price}`;
    }
+
 </script>
 
 
