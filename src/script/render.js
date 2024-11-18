@@ -1,9 +1,9 @@
-export function insertGiftHTML(img, title, category, price) {
+export function insertGiftHTML(img, title, price, links) {
    return `
       <div class="col-12 col-sm-6 col-md-4 col-lg-3">
         <div class="card">
            <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light" data-mdb-ripple-color="light">
-              <img src="${img}" class="w-100 img-fluid imgCardList" />
+              <img src="${img}" class="w-100 img-fluid imgCardList imgModal" />
               <a href="#!">
                  <div class="mask" style="background-color: hsla(0, 0%, 0%, 0.2) !important;">
                     <div class="d-flex justify-content-start align-items-end h-100">
@@ -23,8 +23,8 @@ export function insertGiftHTML(img, title, category, price) {
                  <p></p>
               </a> 
      
-              <button type="button" class="btn btn-info" onclick="viewPrice('${title}')" style="background-color: #463754"
-                 data-mdb-modal-init data-mdb-target="#exampleModal">
+              <button type="button" class="btn btn-info" onclick="openModal('${img}', '${title}', '${price}', 'a')" style="background-color: #463754"
+                 data-bs-toggle="modal" data-bs-target="#modalPrice" id="#modalPrice">
                  Ver Informações
               </button>
      
@@ -44,8 +44,8 @@ export function addGift(gifts) {
 
    cardList.innerHTML = "";
 
-   gifts.forEach(({ img, title, category, price }) => {
-       const giftHTML = insertGiftHTML(img, title, category, price);
+   gifts.forEach(({ img, title, price, link }) => {
+       const giftHTML = insertGiftHTML(img, title, price, link);
        cardList.insertAdjacentHTML("beforeend", giftHTML);
    });
 }
