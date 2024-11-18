@@ -1,31 +1,34 @@
 export function ordGifts(gifts, addGift) {
-    const dropdownLinks = document.querySelectorAll('.linkDropdown')
+    const dropdownLinks = document.querySelectorAll('.linkDropdown');
 
-    dropdownLinks.forEach(link => {
+    const order = {
+        'a-z': (a, b) => a.title.localeCompare(b.title),
+        'z-a': (a, b) => b.title.localeCompare(a.title),
+
+        'menor valor': (a, b) => parseFloat(a.price.replace(',', '.')) - parseFloat(b.price.replace(',', '.')),
+        'maior valor': (a, b) => parseFloat(b.price.replace(',', '.')) - parseFloat(a.price.replace(',', '.'))
+    };
+
+    dropdownLinks.forEach((link) => {
         link.addEventListener('click', (event) => {
-            event.preventDefault()
+            event.preventDefault();
 
-            const option = link.textContent.trim().toLowerCase();
+            const dropdownSelected = link.textContent.trim().toLowerCase();
 
+            removeClassList();
 
-            if (option === 'a-z') gifts.sort((a, b) => a.title.localeCompare(b.title)); 
+            gifts.sort(order[dropdownSelected])
             
-            else if (option === 'z-a') gifts.sort((a, b) => b.title.localeCompare(a.title));
+            link.classList.add('active');
 
-            else if (option === 'maior valor')
-                gifts.sort((a, b) => 
-                    parseFloat(b.price.replace(',', '.')) - 
-                    parseFloat(a.price.replace(',', '.')));
+            addGift(gifts);
+        });
+    });
+}
 
-
-             else if (option === 'menor valor') 
-                gifts.sort((a, b) => 
-                    parseFloat(a.price.replace(',', '.')) - 
-                parseFloat(b.price.replace(',', '.')));
- 
-   
-
-            addGift(gifts)
-        })
-    })
+function removeClassList() {
+    const links = document.querySelectorAll('.linkDropdown');
+    links.forEach(link => {
+        link.classList.remove('active');
+    });
 }
