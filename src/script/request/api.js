@@ -1,3 +1,7 @@
+
+// codigo do gab618
+// https://github.com/gab618/pix-js
+
 export class Pix {
     constructor(pixKey, description, merchantName, merchantCity, txid, amount) {
       this.pixKey = pixKey;

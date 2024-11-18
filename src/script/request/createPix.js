@@ -12,7 +12,6 @@ export function openModal(img, title, price, links) {
     const imgElement = document.querySelector('.imgCardList');
 
    imgElement.src = '';
-   imgElement.src = img;
 
    document.querySelector('#modalPrice .badge').textContent = `R$ ${price}`;
 
@@ -36,13 +35,29 @@ export function createPix(description, price) {
    const payload = pix.getPayload();
 
    const payloadElement = document.querySelector('#modalPrice .pix-payload');
+   const imageQrCode = document.getElementById('imgModal');
+
+
+   imageQrCode.innerHTML = '';
 
    payloadElement.textContent = '';
    payloadElement.textContent = payload;
 
-   console.log(payload)
-   console.log(description.replace(/[0-9]/g, ''))
+   const qrcode = new QRCode(imageQrCode, {
+	text: `${payload}`,
+	width: 460,
+	height: 300,
+	colorDark : "#000000",
+	colorLight : "#ffffff",
+});
+
+qrcode.clear();
+
+qrcode.makeCode(`${payload}`);
+
 }
+
+window.createPix = createPix;
 
 function createTxtID() {
     const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
@@ -56,4 +71,6 @@ function createTxtID() {
 
     return result;
 }
+
+window.createTxtID = createTxtID;
 

@@ -4,63 +4,75 @@
 
             <!-- Modal Header -->
             <div class="modal-header">
+            <div style="width: 100%; height: 100%;
+            display: flex;
+                flex-wrap: wrap;
+                align-content: space-around;
+                flex-direction: column;
+            ">
                 <h6 class="subtitle h6">Produto Selecionado:</h6>
-                <br/>
-                <h4 class="modal-title h6"></h4>
+
+                <div>
+                    <h6 class="modal-title h6"></h6>
+                </div>
+            </div>
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+
             </div>
 
             <!-- Modal body -->
             <div class="modal-body">
                 <div>
                     <div class="card">
-                        <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
-                            data-mdb-ripple-color="light">
+                        <div class="bg-image">
 
-                            <img src="https://carrefourbr.vtexassets.com/arquivos/ids/173408639-1280-auto?v=638624477451030000&width=1280&height=auto&aspect=true"
-                                class="w-100 img-fluid imgCardList imgModal" />
+                            <div src="https://carrefourbr.vtexassets.com/arquivos/ids/173408639-1280-auto?v=638624477451030000&width=1280&height=auto&aspect=true"
+                                class="w-100 img-fluid imgCardList imgModal" id="imgModal"></div>
 
-                            <a>
-                                <div class="mask" style="background-color: hsla(0, 0%, 0%, 0.2) !important;">
+                            <div>
 
-                                    <div class="d-flex justify-content-start align-items-end h-100">
-                                        <h5>
-                                            <span class="badge ms-2" id="modalPrice" 
-                                            style="background-color: #463754">
-                                            </span>
-                                        </h5>
-                                    </div>
 
-                                </div>
+                            </div>
 
-                                <div class="hover-overlay">
-                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.10);"></div>
-                                </div>
+                            <div class="hover-overlay">
+                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.10);"></div>
+                            </div>
 
                             </a>
                         </div>
 
                         <div class="card-body">
                             <a class="text-reset">
+                                <div class="d-flex justify-content-start align-items-end h-100">
+                                    <h5>
+                                        <span class="badge ms-2" id="modalPrice" style="background-color: #463754">
+                                        </span>
+                                    </h5>
+                                </div>
+
                                 <h6 class="card-title mb-3"></h6>
 
                                 <p class="pix-payload"></p>
+
+                              
                             </a>
 
 
                         </div>
                     </div>
 
-                    <p class="d-flex" style="display: flex; justify-content: start; align-items: start;">Chave Pix: 463.272.628-13</p>
+                    <p class="d-flex" style="display: flex; justify-content: start; align-items: start;">Chave Pix:
+                        463.272.628-13</p>
                 </div>
 
             </div>
 
             <!-- Modal footer -->
             <div class="modal-footer">
-                <button type="button" class="btn btn-success" data-bs-dismiss="modal" onclick="copyPix()">Copiar Pix</button>
-                
-                <button  type="button" class="btn btn-danger">Fechar</button>
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal" onclick="copyPix()">Copiar
+                    Pix</button>
+
+                <button type="button" class="btn btn-danger">Fechar</button>
             </div>
 
         </div>
