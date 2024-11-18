@@ -96,26 +96,18 @@
 </script>
 
 <script type="text/javascript" src="src/json/gifts.json"></script>
-<script type="module" src="src/script/main.js"></script>
+<script type="module" src="src/script/gifts/main.js"></script>
+
+<script type="module" src="src/script/request/createPix.js"></script>
+
 
 <script>
+function copyPix() {
+    const payloadElement = document.querySelector('#modalPrice .pix-payload');
 
-   function openModal(img, title, price, links) {
-      document.querySelector('#modalPrice .modal-title').textContent = '';
-      document.querySelector('#modalPrice .modal-title').textContent = title;
-
-      document.querySelector('.card-title').textContent = '';
-      document.querySelector('.card-title').textContent = title;
-
-       const imgElement = document.querySelector('.imgCardList');
-
-      imgElement.src = '';
-      imgElement.src = img;
-
-      document.querySelector('#modalPrice .badge').textContent = `R$ ${price}`;
-   }
+    navigator.clipboard.writeText(payloadElement.textContent);
+}
 
 </script>
-
 
 </html>

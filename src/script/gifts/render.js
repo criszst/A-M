@@ -25,7 +25,7 @@ export function insertGiftHTML(img, title, price, links) {
      
               <button type="button" class="btn btn-info" onclick="openModal('${img}', '${title}', '${price}', 'a')" style="background-color: #463754"
                  data-bs-toggle="modal" data-bs-target="#modalPrice" id="#modalPrice">
-                 Ver Informações
+                 VER PIX
               </button>
      
            </div>
