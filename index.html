@@ -5,6 +5,8 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+   <link rel="shortcut icon" type="imagex/png" href="./src/utils/images/62777-6.jpeg">
+
    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
    
    <!-- Google Fonts -->
@@ -27,7 +29,7 @@
    <link href="src/style/card.css" rel="stylesheet" />
    <link href="src/style/list.css" rel="stylesheet" />
    <link href="src/style/dropdown.css" rel="stylesheet" />
-
+   <link href="src/style/toast.css" rel="stylesheet" />
 
    <title>Chá de Cozinha da Agatha e do Matheus</title>
 </head>
@@ -108,6 +110,22 @@ function copyPix() {
     const payloadElement = document.querySelector('#modalPrice .pix-payload');
 
     navigator.clipboard.writeText(payloadElement.textContent);
+
+
+    var x = document.getElementById("toast")
+
+x.className = "show";
+
+setTimeout(function () { x.className = x.className.replace("show", ""); }, 5000);
+}
+
+</script>
+
+<script>
+function launch_toast() {
+
+
+
 }
 
 </script>
