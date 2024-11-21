@@ -23,13 +23,23 @@ export function openModal(img, title, price, links) {
 window.openModal = openModal;
 
 export function createPix(description, price) {
+    const desc = description
+    .normalize('NFD') // normalização unicode
+    .replace(/[\u0300-\u036f]/g, '') // retira os acentos da decomposição 'NFD'
+    .replace(/[0-9]/g, '') // retirando os numeros/espaços
+    .substring(0, 20); // aqui eh meio lógico ne
+
+    console.log(desc)
+
+    const newPrice = parseFloat(price.replace(',', '.'));
+    
    const pix = new Pix(
       "46327262813",
-      `${description.replace(/[0-9\s]/g, '').substring(0, 20)}`,
+      `${desc}`,
       "Agatha",
       "SaoPaulo",
       `${createTxtID()}`,
-      parseFloat(price.replace(',', '.')),
+      newPrice,
    );
 
    const payload = pix.getPayload();
@@ -51,7 +61,6 @@ export function createPix(description, price) {
 	colorLight : "#ffffff",
 });
 
-qrcode.clear();
 
 qrcode.makeCode(`${payload}`);
 
