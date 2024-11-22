@@ -27,7 +27,9 @@ export function createPix(description, price) {
     .normalize('NFD') // normalização unicode
     .replace(/[\u0300-\u036f]/g, '') // retira os acentos da decomposição 'NFD'
     .replace(/[0-9]/g, '') // retirando os numeros/espaços
+    .substring(0, 30); // meio logico ne
 
+	
     const newPrice = parseFloat(price.replace(',', '.'));
     
    const pix = new Pix(
