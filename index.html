@@ -8,7 +8,7 @@
    <link rel="shortcut icon" type="imagex/png" href="./src/utils/images/62777-6.jpeg">
 
    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
-   
+
    <!-- Google Fonts -->
    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
 
@@ -38,10 +38,11 @@
    <div class="container-fluid">
 
       <section id="sectionIntro"> </section>
+      <div class="scroolRev">
+         <div id="sectionAbout">
 
-
-      <div class="scroolRev" id="sectionAbout">
-
+         </div>
+         
       </div>
 
       <div id="showModal">
@@ -84,20 +85,15 @@
 
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.js" integrity="sha512-is1ls2rgwpFZyixqKFEExPHVUUL+pPkBEPw47s/6NDQ4n1m6T/ySeDW3p54jp45z2EJ0RSOgilqee1WhtelXfA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.js"
+   integrity="sha512-is1ls2rgwpFZyixqKFEExPHVUUL+pPkBEPw47s/6NDQ4n1m6T/ySeDW3p54jp45z2EJ0RSOgilqee1WhtelXfA=="
+   crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 <script src="https://unpkg.com/scrollreveal"></script>
 <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 
 
-<script>
-   ScrollReveal().reveal('.scroolRev', {
-    duration: 2000,
-    distance: '200px',
-    delay:100
-})
-
-</script>
+<script type="module" src="src/script/loader.js"></script>
 
 <script>
    // incluindo o html de outra página
@@ -119,18 +115,18 @@
 
 
 <script>
-function copyPix() {
-    const payloadElement = document.querySelector('#modalPrice .pix-payload');
+   function copyPix() {
+      const payloadElement = document.querySelector('#modalPrice .pix-payload');
 
-    navigator.clipboard.writeText(payloadElement.textContent);
+      navigator.clipboard.writeText(payloadElement.textContent);
 
 
-    var x = document.getElementById("toast")
+      var x = document.getElementById("toast")
 
-x.className = "show";
+      x.className = "show";
 
-setTimeout(function () { x.className = x.className.replace("show", ""); }, 5000);
-}
+      setTimeout(function () { x.className = x.className.replace("show", ""); }, 5000);
+   }
 
 </script>
 
