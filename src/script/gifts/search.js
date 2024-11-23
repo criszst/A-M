@@ -1,6 +1,9 @@
 export function filterGifts(query, allGifts) {
     return allGifts.filter((gift) =>
-        gift.title.toLowerCase().includes(query.toLowerCase())
+        gift.title.toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .includes(query.toLowerCase())
     );
 }
 

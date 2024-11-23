@@ -23,47 +23,48 @@ export function openModal(img, title, price, links) {
 window.openModal = openModal;
 
 export function createPix(description, price) {
-    const desc = description
-    .normalize('NFD') // normalização unicode
-    .replace(/[\u0300-\u036f]/g, '') // retira os acentos da decomposição 'NFD'
-    .replace(/[0-9]/g, '') // retirando os numeros/espaços
-    .substring(0, 20); // aqui eh meio lógico ne
-
-    console.log(desc)
-
+    const desc = createDescription(description);
     const newPrice = parseFloat(price.replace(',', '.'));
-    
-   const pix = new Pix(
-      "46327262813",
-      `${desc}`,
-      "Agatha",
-      "SaoPaulo",
-      `${createTxtID()}`,
-      newPrice,
-   );
 
-   const payload = pix.getPayload();
+    const pix = new Pix(
+        "46327262813",
+        desc,
+        "Agatha",
+        "SaoPaulo",
+        createTxtID(),
+        newPrice,
+    );
 
-   const payloadElement = document.querySelector('#modalPrice .pix-payload');
-   const imageQrCode = document.getElementById('imgModal');
+    const payload = pix.getPayload();
+    const payloadElement = document.querySelector('#modalPrice .pix-payload');
+    const imageQrCode = document.getElementById('imgModal');
 
+    imageQrCode.innerHTML = '';
 
-   imageQrCode.innerHTML = '';
+    payloadElement.textContent = '';
+    payloadElement.textContent = payload;
 
-   payloadElement.textContent = '';
-   payloadElement.textContent = payload;
+    createQrCode(payload, imageQrCode);
+}
 
-   const qrcode = new QRCode(imageQrCode, {
-	text: `${payload}`,
-	width: 460,
-	height: 300,
-	colorDark : "#000000",
-	colorLight : "#ffffff",
-});
+function createDescription(description) {
+    return description
+    .normalize('NFD') // normalizando
+    .replace(/[\u0300-\u036f]/g, '') // remove acentos ne
+    .replace(/[0-9]/g, '') // remove números
+    .replace(/\s(?!.*\s)/, '') // retira o ultimo espaço da string, fazendo com q o pix funcione
+    .substring(0, 50);
+}
 
-
-qrcode.makeCode(`${payload}`);
-
+function createQrCode(payload, element) {
+    const qrcode = new QRCode(element, {
+        text: payload,
+        width: 460,
+        height: 300,
+        colorDark: "#000000",
+        colorLight: "#ffffff",
+    });
+    qrcode.makeCode(payload);
 }
 
 window.createPix = createPix;

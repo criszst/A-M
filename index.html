@@ -25,6 +25,8 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet">
 
+   <link href="src/style/loader.css" rel="stylesheet" />
+
    <link href="src/style/style.css" rel="stylesheet" />
    <link href="src/style/card.css" rel="stylesheet" />
    <link href="src/style/list.css" rel="stylesheet" />
@@ -36,10 +38,12 @@
 
 <body>
    <div class="container-fluid">
+      <div class="loader"></div>
+
       <section id="sectionIntro"> </section>
 
 
-      <div class="" id="sectionAbout">
+      <div class="scroolRev" id="sectionAbout">
 
       </div>
 
@@ -48,7 +52,7 @@
       </div>
 
 
-      <section class="sectionList " style="margin-top: -100px;">
+      <section class="sectionList" style="margin-top: -100px;">
 
          <div class="container-fluid">
             <!-- Contêiner de cards -->
@@ -57,7 +61,7 @@
 
 
             </div>
-            <div id="cardList" class="row g-3" style="margin-top: 3rem;">
+            <div id="cardList" class="row g-3" style="margin-top: 3rem;" class="scroolRev">
 
             </div>
 
@@ -72,9 +76,11 @@
 
 
 
-   <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.3.0/dist/lazyload.min.js"></script>
 
 </body>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 
 <!-- MDB -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/8.1.0/mdb.umd.min.js"></script>
@@ -85,6 +91,8 @@
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.js" integrity="sha512-is1ls2rgwpFZyixqKFEExPHVUUL+pPkBEPw47s/6NDQ4n1m6T/ySeDW3p54jp45z2EJ0RSOgilqee1WhtelXfA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script type="text/javascript" src="src/script/loader.js"></script>
 
 <script>
    // incluindo o html de outra página
